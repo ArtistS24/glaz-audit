@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 330" width="100%" height="100%">
+  <rect width="900" height="330" rx="10" fill="#040609" />
+  <rect x="8" y="8" width="884" height="314" rx="8" fill="none" stroke="#c9934b" stroke-width="0.7" stroke-opacity="0.32" />
+
+  <g transform="translate(22, 22)">
+    <rect x="0" y="0" width="420" height="88" rx="6" fill="#080b11" stroke="#222c3c" stroke-width="1" />
+    <line x1="0" y1="10" x2="0" y2="78" stroke="#d4a359" stroke-width="3" />
+    <text x="16" y="22" font-family="Georgia, 'Times New Roman', serif" font-size="12.5" font-weight="700" fill="#f4efe6" letter-spacing="0.8">Self-Healing Bootstrap &amp; Braille Art</text>
+    <text x="406" y="21" text-anchor="end" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="8.5" fill="#d4a359">tool_check · ascii_art</text>
+    <text x="16" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.4" fill="#9da9bb">Verifies root privileges and auto-installs missing dependencies via apt-get.</text>
+    <text x="16" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.4" fill="#9da9bb">Renders an 11-piece Braille/block art collection in 30 randomized 256-color</text>
+    <text x="16" y="74" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="8.7" fill="#7ee787">neon palettes when terminal dimensions satisfy tput cols ≥ 70 &amp; lines ≥ 20.</text>
+  </g>
+
+  <g transform="translate(458, 22)">
+    <rect x="0" y="0" width="420" height="88" rx="6" fill="#080b11" stroke="#222c3c" stroke-width="1" />
+    <line x1="0" y1="10" x2="0" y2="78" stroke="#4d88c4" stroke-width="3" />
+    <text x="16" y="22" font-family="Georgia, 'Times New Roman', serif" font-size="12.5" font-weight="700" fill="#f4efe6" letter-spacing="0.8">Auto-Detect eth0 Scope &amp; ipcalc HUD</text>
+    <text x="406" y="21" text-anchor="end" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="8.5" fill="#82b8f0">ip_input · interface</text>
+    <text x="16" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.4" fill="#9da9bb">Extracts local interface IP and subnet mask directly from ip route when</text>
+    <text x="16" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.4" fill="#9da9bb">typing eth0 or leaving CIDR blank, validates manual IPv4 and /0–/32 inputs,</text>
+    <text x="16" y="74" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="8.7" fill="#82b8f0">and pins live ipcalc network, broadcast &amp; host range stats on the console.</text>
+  </g>
+
+  <g transform="translate(22, 121)">
+    <rect x="0" y="0" width="420" height="88" rx="6" fill="#080b11" stroke="#222c3c" stroke-width="1" />
+    <line x1="0" y1="10" x2="0" y2="78" stroke="#c9654b" stroke-width="3" />
+    <text x="16" y="22" font-family="Georgia, 'Times New Roman', serif" font-size="12.5" font-weight="700" fill="#f4efe6" letter-spacing="0.8">Dual-Mode Interactive Scan Configurator</text>
+    <text x="406" y="21" text-anchor="end" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="8.5" fill="#f0a896">scan_core [basic/full]</text>
+    <text x="16" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.4" fill="#9da9bb">Supports Basic and Full scan modes with 4 TCP scan types (-sS, -sT, -sA, -sW),</text>
+    <text x="16" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.4" fill="#9da9bb">6 timing templates (Ghost -T1 to Insane -T5), UDP/OS toggles, validated port</text>
+    <text x="16" y="74" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="8.7" fill="#f0a896">ranges, Ctrl+C SIGINT recovery, and a single-line live Nmap progress bar.</text>
+  </g>
+
+  <g transform="translate(458, 121)">
+    <rect x="0" y="0" width="420" height="88" rx="6" fill="#080b11" stroke="#222c3c" stroke-width="1" />
+    <line x1="0" y1="10" x2="0" y2="78" stroke="#d2a8ff" stroke-width="3" />
+    <text x="16" y="22" font-family="Georgia, 'Times New Roman', serif" font-size="12.5" font-weight="700" fill="#f4efe6" letter-spacing="0.8">NSE Script Browser &amp; Dependency Lock</text>
+    <text x="406" y="21" text-anchor="end" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="8.5" fill="#d2a8ff">[N] NSE · [M] Vuln Map</text>
+    <text x="16" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.4" fill="#9da9bb">Built-in Nmap Script Browser searches /usr/share/nmap/scripts/*.nse by</text>
+    <text x="16" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.4" fill="#9da9bb">keyword and attaches selected scripts (--script=). Enforces smart coupling</text>
+    <text x="16" y="74" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="8.7" fill="#d2a8ff">between Service Detection (-sV) and Vulnerability Mapping in Full mode.</text>
+  </g>
+
+  <g transform="translate(22, 220)">
+    <rect x="0" y="0" width="420" height="88" rx="6" fill="#080b11" stroke="#222c3c" stroke-width="1" />
+    <line x1="0" y1="10" x2="0" y2="78" stroke="#79c0ff" stroke-width="3" />
+    <text x="16" y="22" font-family="Georgia, 'Times New Roman', serif" font-size="12.5" font-weight="700" fill="#f4efe6" letter-spacing="0.8">XML Service Correlation &amp; Searchsploit</text>
+    <text x="406" y="21" text-anchor="end" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="8.5" fill="#79c0ff">xmlstarlet · searchsploit</text>
+    <text x="16" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.4" fill="#9da9bb">Transforms Xml/scan.xml into html_reports/scan.html via xsltproc, extracts</text>
+    <text x="16" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.4" fill="#9da9bb">per-host service product/version pairs with xmlstarlet, updates Exploit-DB</text>
+    <text x="16" y="74" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="8.7" fill="#79c0ff">(searchsploit -u), and logs exploit advisories to Vulnerabilities.log.</text>
+  </g>
+
+  <g transform="translate(458, 220)">
+    <rect x="0" y="0" width="420" height="88" rx="6" fill="#080b11" stroke="#222c3c" stroke-width="1" />
+    <line x1="0" y1="10" x2="0" y2="78" stroke="#56d364" stroke-width="3" />
+    <text x="16" y="22" font-family="Georgia, 'Times New Roman', serif" font-size="12.5" font-weight="700" fill="#f4efe6" letter-spacing="0.8">5-Service Hydra Audit &amp; .DATA Index</text>
+    <text x="406" y="21" text-anchor="end" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="8.5" fill="#7ee787">hydra · previous_scans</text>
+    <text x="16" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.4" fill="#9da9bb">Audits open ssh, ftp, smb, telnet, and smtp ports using built-in wordlists</text>
+    <text x="16" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.4" fill="#9da9bb">(29,766 login combinations) or custom files selected via TUI File Browser,</text>
+    <text x="16" y="74" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="8.7" fill="#7ee787">stamps Base64 .DATA markers for scan search, and exports scan_results.zip.</text>
+  </g>
+</svg>

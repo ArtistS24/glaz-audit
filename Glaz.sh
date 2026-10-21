@@ -25,6 +25,7 @@
     bold_blue='\033[1;34m'
     bold_cyan='\033[1;36m'
     bold_white='\033[1;37m'
+    white_bold='\033[1;37m'
     bold_purple='\033[1;35m'
     
     neon_yellow=$'\033[38;5;226m'
@@ -938,8 +939,10 @@ function previous_scans() {
                         view_brute_force_logs "${scan_dir}/brute_force/hydra_logs"
                         ;;
                     4)
-                        if [ -f "${scan_dir}/vuln_mapping/Vulnerabilities.log" ]; then
-                            less -R "${scan_dir}/vuln_mapping/Vulnerabilities.log"
+                        local v_log="${scan_dir}/vuln_mapping/Vulnerabilities.log"
+                        [ ! -f "$v_log" ] && [ -f "${scan_dir}/vuln_mapping/vulnerabilities.log" ] && v_log="${scan_dir}/vuln_mapping/vulnerabilities.log"
+                        if [ -f "$v_log" ]; then
+                            less -R "$v_log"
                         else
                              echo -e "${neon_red}✖ Vulnerability report not found!${nc}"; sleep 2
                         fi

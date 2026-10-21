@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 265" width="100%" height="100%">
+  <defs>
+    <linearGradient id="pGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c9934b" stop-opacity="0.2" />
+      <stop offset="50%" stop-color="#e5b869" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#c9934b" stop-opacity="0.2" />
+    </linearGradient>
+    <marker id="arrowGold" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#d4a359" />
+    </marker>
+  </defs>
+
+  <rect width="900" height="265" rx="10" fill="#040609" />
+  <rect x="10" y="10" width="880" height="245" rx="8" fill="none" stroke="#c9934b" stroke-width="0.8" stroke-opacity="0.38" />
+
+  <text x="450" y="31" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="14" font-weight="700" fill="#f4efe6" letter-spacing="2.8">GLAZ.SH · FOUR-STAGE PENETRATION TESTING PIPELINE</text>
+  <text x="450" y="47" text-anchor="middle" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9" fill="#d4a359" letter-spacing="1.4">TOOL CHECK &amp; ETH0 SCOPE  ──►  NMAP &amp; NSE BROWSER  ──►  XMLSTARLET &amp; SEARCHSPLOIT  ──►  HYDRA &amp; .DATA INDEX</text>
+  <rect x="120" y="55" width="660" height="1" fill="url(#pGold)" />
+
+  <g transform="translate(24, 68)">
+    <rect x="0" y="0" width="194" height="172" rx="6" fill="#080b11" stroke="#c9934b" stroke-width="0.9" stroke-opacity="0.55" />
+    <rect x="0" y="0" width="194" height="26" rx="6" fill="#121722" />
+    <text x="12" y="17" font-family="Georgia, serif" font-size="9.8" font-weight="700" fill="#d4a359" letter-spacing="0.8">STAGE I · SCOPE SETUP</text>
+    <text x="182" y="17" text-anchor="end" font-family="ui-monospace, monospace" font-size="9" fill="#6e7681">0x01</text>
+
+    <g font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9.0" fill="#c9d1d9">
+      <text x="12" y="45" fill="#f0f6fc" font-weight="700">root_check + tool_check</text>
+      <text x="12" y="60" fill="#8b949e">• Verifies id -u == 0</text>
+      <text x="12" y="75" fill="#8b949e">• Installs missing apt pkgs</text>
+      <text x="12" y="90" fill="#8b949e">• 11 Braille neon banners</text>
+      <line x1="12" y1="100" x2="182" y2="100" stroke="#1b2330" />
+      <text x="12" y="116" fill="#d4a359" font-weight="700">ip_input + ipcalc HUD</text>
+      <text x="12" y="131" fill="#8b949e">• Auto-detects eth0 &amp; CIDR</text>
+      <text x="12" y="146" fill="#8b949e">• Validates IP &amp; /0../32</text>
+      <text x="12" y="160" fill="#7ee787">• Live ipcalc subnet stats</text>
+    </g>
+  </g>
+
+  <line x1="218" y1="154" x2="234" y2="154" stroke="#d4a359" stroke-width="1.4" marker-end="url(#arrowGold)" />
+
+  <g transform="translate(238, 68)">
+    <rect x="0" y="0" width="202" height="172" rx="6" fill="#080b11" stroke="#4d88c4" stroke-width="0.9" stroke-opacity="0.60" />
+    <rect x="0" y="0" width="202" height="26" rx="6" fill="#101824" />
+    <text x="12" y="17" font-family="Georgia, serif" font-size="9.8" font-weight="700" fill="#82b8f0" letter-spacing="0.6">STAGE II · NMAP &amp; NSE</text>
+    <text x="190" y="17" text-anchor="end" font-family="ui-monospace, monospace" font-size="9" fill="#6e7681">0x02</text>
+
+    <g font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9.0" fill="#c9d1d9">
+      <text x="12" y="45" fill="#82b8f0" font-weight="700">scan_core (Basic / Full)</text>
+      <text x="12" y="60" fill="#8b949e">• -sS / -sT / -sA / -sW</text>
+      <text x="12" y="75" fill="#8b949e">• Timing -T1 (Ghost)..-T5</text>
+      <text x="12" y="90" fill="#8b949e">• -sU, -sV, -O &amp; -p ports</text>
+      <line x1="12" y1="100" x2="190" y2="100" stroke="#1b2330" />
+      <text x="12" y="116" fill="#f0f6fc" font-weight="700">NSE Browser &amp; Live Feed</text>
+      <text x="12" y="131" fill="#8b949e">• Searches *.nse scripts</text>
+      <text x="12" y="146" fill="#8b949e">• Single-line  live bar</text>
+      <text x="12" y="160" fill="#8b949e">• Graceful Ctrl+C SIGINT</text>
+    </g>
+  </g>
+
+  <line x1="440" y1="154" x2="456" y2="154" stroke="#d4a359" stroke-width="1.4" marker-end="url(#arrowGold)" />
+
+  <g transform="translate(460, 68)">
+    <rect x="0" y="0" width="206" height="172" rx="6" fill="#080b11" stroke="#c9654b" stroke-width="0.9" stroke-opacity="0.65" />
+    <rect x="0" y="0" width="206" height="26" rx="6" fill="#171216" />
+    <text x="12" y="17" font-family="Georgia, serif" font-size="9.8" font-weight="700" fill="#f0a896" letter-spacing="0.6">STAGE III · VULN MAPPING</text>
+    <text x="194" y="17" text-anchor="end" font-family="ui-monospace, monospace" font-size="9" fill="#6e7681">0x03</text>
+
+    <g font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9.0" fill="#c9d1d9">
+      <text x="12" y="45" fill="#f0a896" font-weight="700">Multi-Format Reports</text>
+      <text x="12" y="60" fill="#8b949e">• Saves scan.log &amp; scan.xml</text>
+      <text x="12" y="75" fill="#8b949e">• xsltproc → scan.html</text>
+      <text x="12" y="90" fill="#8b949e">• Auto-locks -sV ↔ Vuln Map</text>
+      <line x1="12" y1="100" x2="194" y2="100" stroke="#1b2330" />
+      <text x="12" y="116" fill="#f0f6fc" font-weight="700">xmlstarlet + Searchsploit</text>
+      <text x="12" y="131" fill="#8b949e">• Updates searchsploit -u</text>
+      <text x="12" y="146" fill="#8b949e">• Correlates IP + version</text>
+      <text x="12" y="160" fill="#8b949e">• Logs Vulnerabilities.log</text>
+    </g>
+  </g>
+
+  <line x1="666" y1="154" x2="682" y2="154" stroke="#d4a359" stroke-width="1.4" marker-end="url(#arrowGold)" />
+
+  <g transform="translate(686, 68)">
+    <rect x="0" y="0" width="190" height="172" rx="6" fill="#080b11" stroke="#56d364" stroke-width="0.9" stroke-opacity="0.60" />
+    <rect x="0" y="0" width="190" height="26" rx="6" fill="#0f1c15" />
+    <text x="12" y="17" font-family="Georgia, serif" font-size="9.8" font-weight="700" fill="#7ee787" letter-spacing="0.8">STAGE IV · HYDRA &amp; ZIP</text>
+    <text x="178" y="17" text-anchor="end" font-family="ui-monospace, monospace" font-size="9" fill="#6e7681">0x04</text>
+
+    <g font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9.0" fill="#c9d1d9">
+      <text x="12" y="45" fill="#7ee787" font-weight="700">5-Protocol Hydra Audit</text>
+      <text x="12" y="60" fill="#8b949e">• ssh · ftp · smb · telnet</text>
+      <text x="12" y="75" fill="#8b949e">  &amp; smtp open-port parser</text>
+      <text x="12" y="90" fill="#8b949e">• 29,766 built-in or custom</text>
+      <text x="12" y="104" fill="#8b949e">  wordlists via TUI browser</text>
+      <line x1="12" y1="114" x2="178" y2="114" stroke="#1b2330" />
+      <text x="12" y="130" fill="#d4a359" font-weight="700">.DATA Index &amp; Archive</text>
+      <text x="12" y="145" fill="#7ee787">• Base64 .DATA scan finder</text>
+      <text x="12" y="160" fill="#8b949e">• Optional scan_results.zip</text>
+    </g>
+  </g>
+</svg>
