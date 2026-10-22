@@ -1,102 +1,116 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 474" width="100%" height="100%">
-  <rect width="900" height="474" rx="10" fill="#040609" />
-  <rect x="8" y="8" width="884" height="458" rx="8" fill="none" stroke="#c9934b" stroke-width="0.7" stroke-opacity="0.32" />
-  <g transform="translate(16, 18)">
-    <rect x="0" y="0" width="868" height="32" rx="5" fill="#10151f" stroke="#c9934b" stroke-width="0.6" stroke-opacity="0.40" />
-    <text x="14" y="20.5" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-weight="700" fill="#d4a359" letter-spacing="1.2">DISPATCH KEY</text>
-    <text x="122" y="20.5" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-weight="700" fill="#d4a359" letter-spacing="1.2">MODULE</text>
-    <text x="295" y="20.5" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-weight="700" fill="#d4a359" letter-spacing="1.2">UNDERLYING ENGINE &amp; FLAGS</text>
-    <text x="575" y="20.5" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-weight="700" fill="#d4a359" letter-spacing="1.2">RUNTIME BEHAVIOR &amp; ARTIFACTS</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1050 580" width="100%" height="100%">
+  <rect width="1050" height="580" rx="12" fill="#040609" />
+  <rect x="10" y="10" width="1030" height="560" rx="10" fill="none" stroke="#c9934b" stroke-width="0.8" stroke-opacity="0.35" />
+
+  <g transform="translate(20, 22)">
+    <rect x="0" y="0" width="1010" height="38" rx="6" fill="#121824" stroke="#c9934b" stroke-width="0.7" stroke-opacity="0.45" />
+    <text x="16" y="24" font-family="Georgia, 'Times New Roman', serif" font-size="12.0" font-weight="700" fill="#d4a359" letter-spacing="1.4">DISPATCH KEY</text>
+    <text x="148" y="24" font-family="Georgia, 'Times New Roman', serif" font-size="12.0" font-weight="700" fill="#d4a359" letter-spacing="1.4">MODULE</text>
+    <text x="350" y="24" font-family="Georgia, 'Times New Roman', serif" font-size="12.0" font-weight="700" fill="#d4a359" letter-spacing="1.4">UNDERLYING ENGINE &amp; FLAGS</text>
+    <text x="680" y="24" font-family="Georgia, 'Times New Roman', serif" font-size="12.0" font-weight="700" fill="#d4a359" letter-spacing="1.4">RUNTIME BEHAVIOR &amp; ARTIFACTS</text>
   </g>
-  <g transform="translate(16, 56)">
-    <rect x="0" y="0" width="868" height="30" rx="4" fill="#080b11" />
-    <text x="14" y="19.5" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9.2" font-weight="700" fill="#d4a359">CONSOLE [1]</text>
-    <text x="122" y="19.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.2" font-weight="600" fill="#f0f4f8">Target Acquisition</text>
-    <text x="295" y="19.5" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9.0" fill="#82b8f0">ip_input · ip route eth0 auto-detect</text>
-    <text x="575" y="19.5" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9.0" fill="#9da9bb">Sets target IP, /0–/32 CIDR &amp; output directory</text>
+
+  <g transform="translate(20, 68)">
+    <rect x="0" y="0" width="1010" height="36" rx="5" fill="#080b11" />
+    <text x="16" y="23" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="11.2" font-weight="700" fill="#d4a359">CONSOLE [1]</text>
+    <text x="148" y="23" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.2" font-weight="600" fill="#f0f4f8">Target Acquisition</text>
+    <text x="350" y="23" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="11.0" fill="#82b8f0">ip_input · ip route eth0 auto-detect</text>
+    <text x="680" y="23" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="11.0" fill="#9da9bb">Sets target IP, /0–/32 CIDR &amp; output dir</text>
   </g>
-  <g transform="translate(16, 87)">
-    <rect x="0" y="0" width="868" height="30" rx="4" fill="#06080d" />
-    <text x="14" y="19.5" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9.2" font-weight="700" fill="#d4a359">CONSOLE [2]</text>
-    <text x="122" y="19.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.2" font-weight="600" fill="#f0f4f8">Basic Scan Mode</text>
-    <text x="295" y="19.5" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9.0" fill="#82b8f0">scan_core "basic"</text>
-    <text x="575" y="19.5" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9.0" fill="#9da9bb">TCP/UDP discovery, XSLT HTML &amp; Hydra weak auth</text>
+
+  <g transform="translate(20, 106)">
+    <rect x="0" y="0" width="1010" height="36" rx="5" fill="#06080d" />
+    <text x="16" y="23" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="11.2" font-weight="700" fill="#d4a359">CONSOLE [2]</text>
+    <text x="148" y="23" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.2" font-weight="600" fill="#f0f4f8">Basic Scan Mode</text>
+    <text x="350" y="23" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="11.0" fill="#82b8f0">scan_core "basic"</text>
+    <text x="680" y="23" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="11.0" fill="#9da9bb">TCP/UDP discovery, XSLT HTML &amp; Hydra audit</text>
   </g>
-  <g transform="translate(16, 118)">
-    <rect x="0" y="0" width="868" height="30" rx="4" fill="#080b11" />
-    <text x="14" y="19.5" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9.2" font-weight="700" fill="#7ee787">CONSOLE [3]</text>
-    <text x="122" y="19.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.2" font-weight="600" fill="#7ee787">Full Scan Mode</text>
-    <text x="295" y="19.5" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9.0" fill="#82b8f0">scan_core "full"</text>
-    <text x="575" y="19.5" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9.0" fill="#9da9bb">Adds [N] NSE Script Browser &amp; [M] Searchsploit</text>
+
+  <g transform="translate(20, 144)">
+    <rect x="0" y="0" width="1010" height="36" rx="5" fill="#080b11" />
+    <text x="16" y="23" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="11.2" font-weight="700" fill="#7ee787">CONSOLE [3]</text>
+    <text x="148" y="23" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.2" font-weight="600" fill="#7ee787">Full Scan Mode</text>
+    <text x="350" y="23" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="11.0" fill="#82b8f0">scan_core "full"</text>
+    <text x="680" y="23" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="11.0" fill="#9da9bb">Adds [N] NSE Browser &amp; [M] Searchsploit</text>
   </g>
-  <g transform="translate(16, 149)">
-    <rect x="0" y="0" width="868" height="30" rx="4" fill="#06080d" />
-    <text x="14" y="19.5" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9.2" font-weight="700" fill="#d4a359">CONSOLE [4]</text>
-    <text x="122" y="19.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.2" font-weight="600" fill="#82b8f0">Search Previous Scans</text>
-    <text x="295" y="19.5" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9.0" fill="#82b8f0">previous_scans · grep .DATA Base64</text>
-    <text x="575" y="19.5" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9.0" fill="#9da9bb">Quick (/home) or Deep (/) search + tree &amp; logs</text>
+
+  <g transform="translate(20, 182)">
+    <rect x="0" y="0" width="1010" height="36" rx="5" fill="#06080d" />
+    <text x="16" y="23" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="11.2" font-weight="700" fill="#d4a359">CONSOLE [4]</text>
+    <text x="148" y="23" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.2" font-weight="600" fill="#82b8f0">Search Previous Scans</text>
+    <text x="350" y="23" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="11.0" fill="#82b8f0">previous_scans · grep .DATA Base64</text>
+    <text x="680" y="23" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="11.0" fill="#9da9bb">Quick (/home) or Deep (/) search + tree &amp; logs</text>
   </g>
-  <g transform="translate(16, 180)">
-    <rect x="0" y="0" width="868" height="30" rx="4" fill="#080b11" />
-    <text x="14" y="19.5" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9.2" font-weight="700" fill="#79c0ff">CONFIG [1]</text>
-    <text x="122" y="19.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.2" font-weight="600" fill="#f0f4f8">Scan Type Selection</text>
-    <text x="295" y="19.5" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9.0" fill="#82b8f0">-sS (SYN) · -sT (Connect) · -sA · -sW</text>
-    <text x="575" y="19.5" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9.0" fill="#9da9bb">Selects Nmap TCP scan technique (default: -sS)</text>
+
+  <g transform="translate(20, 220)">
+    <rect x="0" y="0" width="1010" height="36" rx="5" fill="#080b11" />
+    <text x="16" y="23" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="11.2" font-weight="700" fill="#79c0ff">CONFIG [1]</text>
+    <text x="148" y="23" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.2" font-weight="600" fill="#f0f4f8">Scan Type Selection</text>
+    <text x="350" y="23" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="11.0" fill="#82b8f0">-sS (SYN) · -sT (Connect) · -sA · -sW</text>
+    <text x="680" y="23" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="11.0" fill="#9da9bb">Selects Nmap TCP scan technique (default: -sS)</text>
   </g>
-  <g transform="translate(16, 211)">
-    <rect x="0" y="0" width="868" height="30" rx="4" fill="#06080d" />
-    <text x="14" y="19.5" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9.2" font-weight="700" fill="#79c0ff">CONFIG [2]</text>
-    <text x="122" y="19.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.2" font-weight="600" fill="#f0f4f8">Aggressiveness Level</text>
-    <text x="295" y="19.5" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9.0" fill="#82b8f0">Ghost (-T1) · Sneaky/Polite (-T2) · -T3..-T5</text>
-    <text x="575" y="19.5" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9.0" fill="#9da9bb">Maps 6 timing profiles to Nmap -T1 through -T5</text>
+
+  <g transform="translate(20, 258)">
+    <rect x="0" y="0" width="1010" height="36" rx="5" fill="#06080d" />
+    <text x="16" y="23" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="11.2" font-weight="700" fill="#79c0ff">CONFIG [2]</text>
+    <text x="148" y="23" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.2" font-weight="600" fill="#f0f4f8">Aggressiveness Level</text>
+    <text x="350" y="23" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="11.0" fill="#82b8f0">Ghost (-T1) · Sneaky/Polite (-T2) · -T3..-T5</text>
+    <text x="680" y="23" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="11.0" fill="#9da9bb">Maps 6 timing profiles to Nmap -T1 through -T5</text>
   </g>
-  <g transform="translate(16, 242)">
-    <rect x="0" y="0" width="868" height="30" rx="4" fill="#080b11" />
-    <text x="14" y="19.5" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9.2" font-weight="700" fill="#79c0ff">CONFIG [3-5]</text>
-    <text x="122" y="19.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.2" font-weight="600" fill="#f0f4f8">UDP, Service &amp; OS</text>
-    <text x="295" y="19.5" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9.0" fill="#82b8f0">Toggles -sU (UDP) · -sV (Service) · -O (OS)</text>
-    <text x="575" y="19.5" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9.0" fill="#9da9bb">Couples -sV with [M] Vuln Map in Full mode</text>
+
+  <g transform="translate(20, 296)">
+    <rect x="0" y="0" width="1010" height="36" rx="5" fill="#080b11" />
+    <text x="16" y="23" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="11.2" font-weight="700" fill="#79c0ff">CONFIG [3-5]</text>
+    <text x="148" y="23" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.2" font-weight="600" fill="#f0f4f8">UDP, Service &amp; OS</text>
+    <text x="350" y="23" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="11.0" fill="#82b8f0">Toggles -sU (UDP) · -sV (Service) · -O (OS)</text>
+    <text x="680" y="23" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="11.0" fill="#9da9bb">Couples -sV with [M] Vuln Map in Full mode</text>
   </g>
-  <g transform="translate(16, 273)">
-    <rect x="0" y="0" width="868" height="30" rx="4" fill="#06080d" />
-    <text x="14" y="19.5" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9.2" font-weight="700" fill="#79c0ff">CONFIG [6]</text>
-    <text x="122" y="19.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.2" font-weight="600" fill="#f0f4f8">Custom Port Validator</text>
-    <text x="295" y="19.5" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9.0" fill="#82b8f0">nmap -p &lt;ports&gt; (single &amp; 1-65535 ranges)</text>
-    <text x="575" y="19.5" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9.0" fill="#9da9bb">Validates comma lists &amp; ranges (e.g. 22,80,20-25)</text>
+
+  <g transform="translate(20, 334)">
+    <rect x="0" y="0" width="1010" height="36" rx="5" fill="#06080d" />
+    <text x="16" y="23" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="11.2" font-weight="700" fill="#79c0ff">CONFIG [6]</text>
+    <text x="148" y="23" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.2" font-weight="600" fill="#f0f4f8">Custom Port Validator</text>
+    <text x="350" y="23" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="11.0" fill="#82b8f0">nmap -p &lt;ports&gt; (single &amp; 1-65535 ranges)</text>
+    <text x="680" y="23" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="11.0" fill="#9da9bb">Validates comma lists &amp; ranges (e.g. 22,80,20-25)</text>
   </g>
-  <g transform="translate(16, 304)">
-    <rect x="0" y="0" width="868" height="30" rx="4" fill="#080b11" />
-    <text x="14" y="19.5" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9.2" font-weight="700" fill="#79c0ff">CONFIG [7-8]</text>
-    <text x="122" y="19.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.2" font-weight="600" fill="#f0f4f8">Wordlist Setup &amp; TUI</text>
-    <text x="295" y="19.5" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9.0" fill="#82b8f0">Glaz default (29,766 tries) or File Browser</text>
-    <text x="575" y="19.5" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9.0" fill="#9da9bb">123 users × 242 passwords or custom path / explorer</text>
+
+  <g transform="translate(20, 372)">
+    <rect x="0" y="0" width="1010" height="36" rx="5" fill="#080b11" />
+    <text x="16" y="23" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="11.2" font-weight="700" fill="#79c0ff">CONFIG [7-8]</text>
+    <text x="148" y="23" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.2" font-weight="600" fill="#f0f4f8">Wordlist Setup &amp; TUI</text>
+    <text x="350" y="23" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="11.0" fill="#82b8f0">Glaz default (29,766 tries) or File Browser</text>
+    <text x="680" y="23" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="11.0" fill="#9da9bb">123 users × 242 passwords or custom file explorer</text>
   </g>
-  <g transform="translate(16, 335)">
-    <rect x="0" y="0" width="868" height="30" rx="4" fill="#06080d" />
-    <text x="14" y="19.5" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9.2" font-weight="700" fill="#f0a896">CONFIG [9]</text>
-    <text x="122" y="19.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.2" font-weight="600" fill="#f0a896">Hydra Brute-Force</text>
-    <text x="295" y="19.5" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9.0" fill="#82b8f0">hydra -vV -L &lt;users&gt; -P &lt;pass&gt; &lt;svc&gt;://&lt;ip&gt;</text>
-    <text x="575" y="19.5" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9.0" fill="#9da9bb">Audits open ssh, ftp, smb, telnet &amp; smtp services</text>
+
+  <g transform="translate(20, 410)">
+    <rect x="0" y="0" width="1010" height="36" rx="5" fill="#06080d" />
+    <text x="16" y="23" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="11.2" font-weight="700" fill="#f0a896">CONFIG [9]</text>
+    <text x="148" y="23" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.2" font-weight="600" fill="#f0a896">Hydra Brute-Force</text>
+    <text x="350" y="23" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="11.0" fill="#82b8f0">hydra -vV -L &lt;users&gt; -P &lt;pass&gt; &lt;svc&gt;://&lt;ip&gt;</text>
+    <text x="680" y="23" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="11.0" fill="#9da9bb">Audits open ssh, ftp, smb, telnet &amp; smtp services</text>
   </g>
-  <g transform="translate(16, 366)">
-    <rect x="0" y="0" width="868" height="30" rx="4" fill="#080b11" />
-    <text x="14" y="19.5" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9.2" font-weight="700" fill="#d2a8ff">CONFIG [N]</text>
-    <text x="122" y="19.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.2" font-weight="600" fill="#d2a8ff">NSE Script Browser</text>
-    <text x="295" y="19.5" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9.0" fill="#82b8f0">find /usr/share/nmap/scripts/*&lt;term&gt;*.nse</text>
-    <text x="575" y="19.5" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9.0" fill="#9da9bb">Interactive keyword search &amp; --script= attachment</text>
+
+  <g transform="translate(20, 448)">
+    <rect x="0" y="0" width="1010" height="36" rx="5" fill="#080b11" />
+    <text x="16" y="23" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="11.2" font-weight="700" fill="#d2a8ff">CONFIG [N]</text>
+    <text x="148" y="23" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.2" font-weight="600" fill="#d2a8ff">NSE Script Browser</text>
+    <text x="350" y="23" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="11.0" fill="#82b8f0">find /usr/share/nmap/scripts/*&lt;term&gt;*.nse</text>
+    <text x="680" y="23" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="11.0" fill="#9da9bb">Interactive keyword search &amp; --script= attachment</text>
   </g>
-  <g transform="translate(16, 397)">
-    <rect x="0" y="0" width="868" height="30" rx="4" fill="#06080d" />
-    <text x="14" y="19.5" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9.2" font-weight="700" fill="#d2a8ff">CONFIG [M]</text>
-    <text x="122" y="19.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.2" font-weight="600" fill="#d2a8ff">Vulnerability Mapping</text>
-    <text x="295" y="19.5" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9.0" fill="#82b8f0">xmlstarlet sel + searchsploit -u &lt;service&gt;</text>
-    <text x="575" y="19.5" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9.0" fill="#9da9bb">Correlates host IPs &amp; versions → Vulnerabilities.log</text>
+
+  <g transform="translate(20, 486)">
+    <rect x="0" y="0" width="1010" height="36" rx="5" fill="#06080d" />
+    <text x="16" y="23" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="11.2" font-weight="700" fill="#d2a8ff">CONFIG [M]</text>
+    <text x="148" y="23" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.2" font-weight="600" fill="#d2a8ff">Vulnerability Mapping</text>
+    <text x="350" y="23" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="11.0" fill="#82b8f0">xmlstarlet sel + searchsploit -u &lt;service&gt;</text>
+    <text x="680" y="23" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="11.0" fill="#9da9bb">Correlates host IPs &amp; versions → Vulnerabilities.log</text>
   </g>
-  <g transform="translate(16, 428)">
-    <rect x="0" y="0" width="868" height="30" rx="4" fill="#080b11" />
-    <text x="14" y="19.5" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9.2" font-weight="700" fill="#7ee787">CONFIG [0/S]</text>
-    <text x="122" y="19.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.2" font-weight="600" fill="#7ee787">Zip &amp; Scan Execution</text>
-    <text x="295" y="19.5" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9.0" fill="#82b8f0">nmap --stats-every 0.5s + xsltproc + zip -r</text>
-    <text x="575" y="19.5" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9.0" fill="#9da9bb">Generates scan.log, scan.xml, scan.html &amp; .zip</text>
+
+  <g transform="translate(20, 524)">
+    <rect x="0" y="0" width="1010" height="36" rx="5" fill="#080b11" />
+    <text x="16" y="23" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="11.2" font-weight="700" fill="#7ee787">CONFIG [0/S]</text>
+    <text x="148" y="23" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.2" font-weight="600" fill="#7ee787">Zip &amp; Scan Execution</text>
+    <text x="350" y="23" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="11.0" fill="#82b8f0">nmap --stats-every 0.5s + xsltproc + zip -r</text>
+    <text x="680" y="23" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="11.0" fill="#9da9bb">Generates scan.log, scan.xml, scan.html &amp; .zip</text>
   </g>
 </svg>

@@ -1,50 +1,50 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 268" width="100%" height="100%">
-  <rect width="900" height="268" rx="10" fill="#040609" />
-  <rect x="8" y="8" width="884" height="252" rx="8" fill="none" stroke="#c9934b" stroke-width="0.7" stroke-opacity="0.35" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1050 330" width="100%" height="100%">
+  <rect width="1050" height="330" rx="12" fill="#040609" />
+  <rect x="10" y="10" width="1030" height="310" rx="10" fill="none" stroke="#c9934b" stroke-width="0.8" stroke-opacity="0.38" />
 
-  <g transform="translate(20, 20)">
-    <rect x="0" y="0" width="422" height="228" rx="6" fill="#080b11" stroke="#222c3c" stroke-width="1" />
-    <rect x="1" y="1" width="420" height="28" rx="5" fill="#10151f" />
-    <line x1="0" y1="29" x2="422" y2="29" stroke="#222c3c" stroke-width="1" />
-    <line x1="0" y1="6" x2="0" y2="24" stroke="#d4a359" stroke-width="3" />
-    <text x="14" y="19" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="700" fill="#d4a359" letter-spacing="1.0">TIMESTAMPED SCAN OUTPUT HIERARCHY</text>
-    <text x="408" y="19" text-anchor="end" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="8.5" fill="#7d8a9e">[scan_core]</text>
+  <g transform="translate(24, 24)">
+    <rect x="0" y="0" width="488" height="280" rx="7" fill="#080b11" stroke="#222c3c" stroke-width="1.1" />
+    <rect x="1" y="1" width="486" height="34" rx="6" fill="#121824" />
+    <line x1="0" y1="35" x2="488" y2="35" stroke="#222c3c" stroke-width="1" />
+    <line x1="0" y1="8" x2="0" y2="28" stroke="#d4a359" stroke-width="3.5" />
+    <text x="16" y="23" font-family="Georgia, 'Times New Roman', serif" font-size="12.5" font-weight="700" fill="#d4a359" letter-spacing="1.1">TIMESTAMPED SCAN OUTPUT HIERARCHY</text>
+    <text x="472" y="23" text-anchor="end" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="10.2" fill="#7d8a9e">[scan_core]</text>
 
-    <g font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9.0" fill="#c9d1d9">
-      <text x="14" y="47" fill="#f0f6fc" font-weight="700">Glaz/&lt;ip&gt;_&lt;cidr&gt;/&lt;YYYY-MM-DD_HH-MM-SS&gt;/Glaz.&lt;mode&gt;.scan/</text>
-      <text x="14" y="64" fill="#6e7681">├──</text> <text x="42" y="64" fill="#d4a359" font-weight="700">.DATA</text> <text x="145" y="64" fill="#8b949e">Base64 marker (VGhpcyBpcyBHbGF6IE1hcms=)</text>
-      <text x="14" y="80" fill="#6e7681">├──</text> <text x="42" y="80" fill="#82b8f0">scan.log</text> <text x="145" y="80" fill="#8b949e">Normal Nmap output (-oN)</text>
-      <text x="14" y="96" fill="#6e7681">├──</text> <text x="42" y="96" fill="#82b8f0">Xml/scan.xml</text> <text x="145" y="96" fill="#8b949e">Machine-readable Nmap XML (-oX)</text>
-      <text x="14" y="112" fill="#6e7681">├──</text> <text x="42" y="112" fill="#82b8f0">html_reports/</text> <text x="145" y="112" fill="#8b949e">scan.html (generated via xsltproc)</text>
-      <text x="14" y="128" fill="#6e7681">├──</text> <text x="42" y="128" fill="#d2a8ff">vuln_mapping/</text> <text x="145" y="128" fill="#8b949e">services.versions.log &amp; Vulnerabilities.log</text>
-      <text x="14" y="144" fill="#6e7681">├──</text> <text x="42" y="144" fill="#f0a896">brute_force/hydra_logs/</text>
-      <text x="14" y="160" fill="#6e7681">│   ├──</text> <text x="64" y="160" fill="#c9d1d9">ssh/ · ftp/ · smb/</text> <text x="182" y="160" fill="#8b949e">*_brute.logs &amp; *_successful.log</text>
-      <text x="14" y="176" fill="#6e7681">│   └──</text> <text x="64" y="176" fill="#c9d1d9">telnet/ · smtp/</text> <text x="182" y="176" fill="#8b949e">*_brute.logs &amp; *_successful.log</text>
-      <text x="14" y="194" fill="#6e7681">└──</text> <text x="42" y="194" fill="#7ee787" font-weight="700">scan_results.zip</text> <text x="155" y="194" fill="#8b949e">Optional portable archive ([0] Zip: True)</text>
-      <text x="14" y="213" fill="#7d8a9e">• Temp wordlists (brute_force/tmp/) auto-cleaned after Hydra run</text>
+    <g font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="10.8" fill="#c9d1d9">
+      <text x="16" y="58" fill="#f0f6fc" font-weight="700">Glaz/&lt;ip&gt;_&lt;cidr&gt;/&lt;YYYY-MM-DD_HH-MM-SS&gt;/Glaz.&lt;mode&gt;.scan/</text>
+      <text x="16" y="78" fill="#6e7681">├──</text> <text x="46" y="78" fill="#d4a359" font-weight="700">.DATA</text> <text x="165" y="78" fill="#8b949e">Base64 marker (VGhpcyBpcyBHbGF6IE1hcms=)</text>
+      <text x="16" y="98" fill="#6e7681">├──</text> <text x="46" y="98" fill="#82b8f0">scan.log</text> <text x="165" y="98" fill="#8b949e">Normal Nmap output (-oN)</text>
+      <text x="16" y="118" fill="#6e7681">├──</text> <text x="46" y="118" fill="#82b8f0">Xml/scan.xml</text> <text x="165" y="118" fill="#8b949e">Machine-readable Nmap XML (-oX)</text>
+      <text x="16" y="138" fill="#6e7681">├──</text> <text x="46" y="138" fill="#82b8f0">html_reports/</text> <text x="165" y="138" fill="#8b949e">scan.html (generated via xsltproc)</text>
+      <text x="16" y="158" fill="#6e7681">├──</text> <text x="46" y="158" fill="#d2a8ff">vuln_mapping/</text> <text x="165" y="158" fill="#8b949e">services.versions.log &amp; Vulnerabilities.log</text>
+      <text x="16" y="178" fill="#6e7681">├──</text> <text x="46" y="178" fill="#f0a896">brute_force/hydra_logs/</text>
+      <text x="16" y="198" fill="#6e7681">│   ├──</text> <text x="70" y="198" fill="#c9d1d9">ssh/ · ftp/ · smb/</text> <text x="210" y="198" fill="#8b949e">*_brute.logs &amp; *_successful.log</text>
+      <text x="16" y="218" fill="#6e7681">│   └──</text> <text x="70" y="218" fill="#c9d1d9">telnet/ · smtp/</text> <text x="210" y="218" fill="#8b949e">*_brute.logs &amp; *_successful.log</text>
+      <text x="16" y="240" fill="#6e7681">└──</text> <text x="46" y="240" fill="#7ee787" font-weight="700">scan_results.zip</text> <text x="180" y="240" fill="#8b949e">Optional portable archive ([0] Zip: True)</text>
+      <text x="16" y="262" fill="#7d8a9e">• Temp wordlists (brute_force/tmp/) auto-cleaned after Hydra run</text>
     </g>
   </g>
 
-  <g transform="translate(458, 20)">
-    <rect x="0" y="0" width="422" height="228" rx="6" fill="#080b11" stroke="#222c3c" stroke-width="1" />
-    <rect x="1" y="1" width="420" height="28" rx="5" fill="#0f1c15" />
-    <line x1="0" y1="29" x2="422" y2="29" stroke="#222c3c" stroke-width="1" />
-    <line x1="0" y1="6" x2="0" y2="24" stroke="#56d364" stroke-width="3" />
-    <text x="14" y="19" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="700" fill="#7ee787" letter-spacing="1.0">PREVIOUS SCANS BROWSER (.DATA INDEX)</text>
-    <text x="408" y="19" text-anchor="end" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="8.5" fill="#7ee787">[previous_scans]</text>
+  <g transform="translate(538, 24)">
+    <rect x="0" y="0" width="488" height="280" rx="7" fill="#080b11" stroke="#222c3c" stroke-width="1.1" />
+    <rect x="1" y="1" width="486" height="34" rx="6" fill="#102018" />
+    <line x1="0" y1="35" x2="488" y2="35" stroke="#222c3c" stroke-width="1" />
+    <line x1="0" y1="8" x2="0" y2="28" stroke="#56d364" stroke-width="3.5" />
+    <text x="16" y="23" font-family="Georgia, 'Times New Roman', serif" font-size="12.5" font-weight="700" fill="#7ee787" letter-spacing="1.1">PREVIOUS SCANS BROWSER (.DATA INDEX)</text>
+    <text x="472" y="23" text-anchor="end" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="10.2" fill="#7ee787">[previous_scans]</text>
 
-    <g font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9.0" fill="#c9d1d9">
-      <text x="14" y="47" fill="#f0f6fc" font-weight="700">Search Scopes &amp; Chronological Sort</text>
-      <text x="14" y="64" fill="#82b8f0">[1] Quick Search (/home/)</text> <text x="180" y="64" fill="#8b949e">│ Fast user-workspace marker scan</text>
-      <text x="14" y="80" fill="#82b8f0">[2] Deep Search (/)</text> <text x="180" y="80" fill="#8b949e">│ Full filesystem .DATA traversal</text>
-      <line x1="14" y1="92" x2="408" y2="92" stroke="#1b2330" />
-      <text x="14" y="109" fill="#d4a359" font-weight="700">Interactive Scan Inspector (tree -C -L 3 + Actions)</text>
-      <text x="14" y="126" fill="#7ee787">[1] View Nmap Log</text> <text x="165" y="126" fill="#8b949e">→ Opens scan.log in less -R pager</text>
-      <text x="14" y="142" fill="#7ee787">[2] Open HTML Report</text> <text x="165" y="142" fill="#8b949e">→ Launches xdg-open scan.html in browser</text>
-      <text x="14" y="158" fill="#7ee787">[3] View Brute-Force Logs</text> <text x="165" y="158" fill="#8b949e">→ Per-service Full vs Successful login viewer</text>
-      <text x="14" y="174" fill="#7ee787">[4] View Vulnerability Report</text> <text x="175" y="174" fill="#8b949e">→ Opens Searchsploit Vulnerabilities.log</text>
-      <text x="14" y="190" fill="#f0a896">[B] Back to Scan Selection</text> <text x="175" y="190" fill="#8b949e">→ Returns to date-sorted scan list</text>
-      <text x="14" y="213" fill="#7d8a9e">• Marker decodes to: "This is Glaz Mark" (Base64 signature)</text>
+    <g font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="10.8" fill="#c9d1d9">
+      <text x="16" y="58" fill="#f0f6fc" font-weight="700">Search Scopes &amp; Chronological Sort</text>
+      <text x="16" y="78" fill="#82b8f0">[1] Quick Search (/home/)</text> <text x="210" y="78" fill="#8b949e">│ Fast user-workspace marker scan</text>
+      <text x="16" y="98" fill="#82b8f0">[2] Deep Search (/)</text> <text x="210" y="98" fill="#8b949e">│ Full filesystem .DATA traversal</text>
+      <line x1="16" y1="112" x2="472" y2="112" stroke="#1b2330" />
+      <text x="16" y="132" fill="#d4a359" font-weight="700">Interactive Scan Inspector (tree -C -L 3 + Actions)</text>
+      <text x="16" y="152" fill="#7ee787">[1] View Nmap Log</text> <text x="195" y="152" fill="#8b949e">→ Opens scan.log in less -R pager</text>
+      <text x="16" y="172" fill="#7ee787">[2] Open HTML Report</text> <text x="195" y="172" fill="#8b949e">→ Launches xdg-open scan.html in browser</text>
+      <text x="16" y="192" fill="#7ee787">[3] View Brute-Force Logs</text> <text x="195" y="192" fill="#8b949e">→ Per-service Full vs Successful login viewer</text>
+      <text x="16" y="212" fill="#7ee787">[4] View Vulnerability Report</text> <text x="205" y="212" fill="#8b949e">→ Opens Searchsploit Vulnerabilities.log</text>
+      <text x="16" y="232" fill="#f0a896">[B] Back to Scan Selection</text> <text x="205" y="232" fill="#8b949e">→ Returns to date-sorted scan list</text>
+      <text x="16" y="262" fill="#7d8a9e">• Marker decodes to: "This is Glaz Mark" (Base64 signature)</text>
     </g>
   </g>
 </svg>

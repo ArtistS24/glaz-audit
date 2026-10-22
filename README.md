@@ -4,11 +4,10 @@
 
 <br/>
 
-[![Engine](https://img.shields.io/badge/Engine-GNU_Bash_2%2C274_LOC-58A6FF?style=for-the-badge&logo=gnubash&logoColor=white&labelColor=090D14)](Glaz.sh)
-[![Recon](https://img.shields.io/badge/Recon-Nmap_%2B_Searchsploit-D2A8FF?style=for-the-badge&logo=linux&logoColor=white&labelColor=090D14)](Glaz.sh)
-[![Brute Force](https://img.shields.io/badge/Brute_Force-Hydra_5--Service_Audit-FF7B72?style=for-the-badge&logo=kalilinux&logoColor=white&labelColor=090D14)](Glaz.sh)
-[![Portfolio Dossier](https://img.shields.io/badge/Portfolio_Dossier-PDF_(12_Pages)-F59E0B?style=for-the-badge&logo=read-the-docs&logoColor=white&labelColor=090D14)](docs/Glaz_Portfolio.pdf)
-[![Lab Report](https://img.shields.io/badge/Lab_Report-PDF_(14_Pages)-3FB950?style=for-the-badge&logo=files&logoColor=white&labelColor=090D14)](Glaz.pdf)
+[![Architecture](https://img.shields.io/badge/Architecture-GNU_Bash_2%2C278_LOC-58a6ff?style=for-the-badge&logo=gnubash&logoColor=white&labelColor=080c14)](Glaz.sh)
+[![Recon](https://img.shields.io/badge/Recon-Nmap_%2B_Searchsploit-d2a8ff?style=for-the-badge&logo=linux&logoColor=white&labelColor=080c14)](Glaz.sh)
+[![Brute Force](https://img.shields.io/badge/Brute_Force-Hydra_5--Service_Audit-f0a896?style=for-the-badge&logo=kalilinux&logoColor=white&labelColor=080c14)](Glaz.sh)
+[![Portfolio Dossier](https://img.shields.io/badge/Portfolio_Dossier-PDF_(12_Pages_Dark_Theme)-d4a359?style=for-the-badge&logo=adobeacrobatreader&logoColor=white&labelColor=080c14)](docs/Glaz_Portfolio.pdf)
 
 <br/>
 
@@ -30,11 +29,11 @@
 
 <img src="assets/sec_3_walkthrough.svg" width="100%" alt="03 // Live Execution Walkthrough & Lab Evidence" />
 
-<img src="assets/evidence/poc_plate_1_recon_and_config.png" width="100%" alt="Glaz Execution Evidence Plate I — Target Acquisition, Full Scan Config, Wordlist Browser & NSE Script Browser" />
+<img src="assets/evidence/poc_plate_1_recon_and_config.png" width="100%" alt="Glaz Execution Evidence Plate I — Target Acquisition, Input Validation, scan_core Menu, Wordlist Browser & NSE Script Search (Glaz_Portfolio.pdf Figures 1-7)" />
 
 <br/>
 
-<img src="assets/evidence/poc_plate_2_vulns_hydra_and_history.png" width="100%" alt="Glaz Execution Evidence Plate II — Live Nmap Ticker, Vulnerability Mapping, Hydra Brute-Force & .DATA History Index" />
+<img src="assets/evidence/poc_plate_2_vulns_hydra_and_history.png" width="100%" alt="Glaz Execution Evidence Plate II — xmlstarlet Searchsploit Exploit Mapping, Hydra Multi-Service Audit, .DATA History Browser & Dynamic Banner (Glaz_Portfolio.pdf Figures 8-14)" />
 
 <br/><br/>
 
@@ -55,10 +54,10 @@ sudo ./Glaz.sh
 
 <br/><br/>
 
-[![Nmap](https://img.shields.io/badge/Nmap-7.94%2B-58A6FF?style=for-the-badge&logo=linux&logoColor=white&labelColor=090D14)](https://github.com/nmap/nmap)
-[![ExploitDB](https://img.shields.io/badge/ExploitDB-Searchsploit-F59E0B?style=for-the-badge&logo=kalilinux&logoColor=white&labelColor=090D14)](https://gitlab.com/kalilinux/packages/exploitdb)
-[![THC-Hydra](https://img.shields.io/badge/THC--Hydra-v9.5%2B-FF7B72?style=for-the-badge&logo=gnubash&logoColor=white&labelColor=090D14)](https://github.com/vanhauser-thc/thc-hydra)
-[![XMLStarlet](https://img.shields.io/badge/XMLStarlet-1.6.1-D2A8FF?style=for-the-badge&logo=xml&logoColor=white&labelColor=090D14)](https://xmlstar.sourceforge.net/)
-[![libxslt](https://img.shields.io/badge/libxslt-xsltproc-3FB950?style=for-the-badge&logo=gnome&logoColor=white&labelColor=090D14)](https://gitlab.gnome.org/GNOME/libxslt)
+[![Nmap](https://img.shields.io/badge/Nmap-7.94%2B-58a6ff?style=for-the-badge&logo=linux&logoColor=white&labelColor=080c14)](https://github.com/nmap/nmap)
+[![ExploitDB](https://img.shields.io/badge/ExploitDB-Searchsploit-f59e0b?style=for-the-badge&logo=kalilinux&logoColor=white&labelColor=080c14)](https://gitlab.com/kalilinux/packages/exploitdb)
+[![THC-Hydra](https://img.shields.io/badge/THC--Hydra-v9.5%2B-f0a896?style=for-the-badge&logo=kalilinux&logoColor=white&labelColor=080c14)](https://github.com/vanhauser-thc/thc-hydra)
+[![XMLStarlet](https://img.shields.io/badge/XMLStarlet-1.6.1-d2a8ff?style=for-the-badge&logo=xml&logoColor=white&labelColor=080c14)](https://xmlstar.sourceforge.net/)
+[![libxslt](https://img.shields.io/badge/libxslt-xsltproc-7ee787?style=for-the-badge&logo=gnome&logoColor=white&labelColor=080c14)](https://gitlab.gnome.org/GNOME/libxslt)
 
 </div>
