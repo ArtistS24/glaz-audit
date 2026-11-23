@@ -50,9 +50,9 @@ sudo ./Glaz.sh
 <div align="center">
 
 [![Nmap](https://img.shields.io/badge/Upstream-nmap%2Fnmap-0d131c?style=flat-square&logo=github&logoColor=d4a359&labelColor=06090e)](https://github.com/nmap/nmap)
-[![ExploitDB](https://img.shields.io/badge/Upstream-offensive--security%2Fexploitdb-0d131c?style=flat-square&logo=github&logoColor=4d88c4&labelColor=06090e)](https://gitlab.com/kalilinux/packages/exploitdb)
+[![ExploitDB](https://img.shields.io/badge/Upstream-kalilinux%2Fexploitdb-0d131c?style=flat-square&logo=gitlab&logoColor=4d88c4&labelColor=06090e)](https://gitlab.com/kalilinux/packages/exploitdb)
 [![THC-Hydra](https://img.shields.io/badge/Upstream-vanhauser--thc%2Fthc--hydra-0d131c?style=flat-square&logo=github&logoColor=c9654b&labelColor=06090e)](https://github.com/vanhauser-thc/thc-hydra)
-[![XMLStarlet](https://img.shields.io/badge/Upstream-xmlstar%2Fxmlstarlet-0d131c?style=flat-square&logo=github&logoColor=4d88c4&labelColor=06090e)](https://xmlstar.sourceforge.net/)
-[![libxslt](https://img.shields.io/badge/Upstream-GNOME%2Flibxslt-0d131c?style=flat-square&logo=github&logoColor=56d364&labelColor=06090e)](https://gitlab.gnome.org/GNOME/libxslt)
+[![XMLStarlet](https://img.shields.io/badge/Upstream-xmlstar.sourceforge.net-0d131c?style=flat-square&logo=sourceforge&logoColor=4d88c4&labelColor=06090e)](https://xmlstar.sourceforge.net/)
+[![libxslt](https://img.shields.io/badge/Upstream-GNOME%2Flibxslt-0d131c?style=flat-square&logo=gitlab&logoColor=56d364&labelColor=06090e)](https://gitlab.gnome.org/GNOME/libxslt)
 
 </div>
