@@ -1,0 +1,5 @@
+# Ignore Glaz runtime output directories and temporary wordlists
+Glaz/
+*.tmp
+*.log
+*.zip

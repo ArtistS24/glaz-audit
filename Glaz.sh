@@ -1523,39 +1523,37 @@ function scan_core() {
                 xml_output="$output_base/Xml/scan.xml"
                 normal_output="$output_base/scan.log"
                 
-                # Building the Nmap command
-                nmap_cmd="nmap --stats-every 0.5s -v -oX \"$xml_output\" -oN \"$normal_output\"" 
+                # Build Nmap arguments as a safe Bash array (avoids eval command injection)
+                nmap_args=(--stats-every 0.5s -v -oX "$xml_output" -oN "$normal_output")
 
                 case "$scan_type" in
-                    "Stealth (SYN)") nmap_cmd+=" -sS" ;;
-                    "Connect")       nmap_cmd+=" -sT" ;;
-                    "ACK")           nmap_cmd+=" -sA" ;;
-                    "Window")        nmap_cmd+=" -sW" ;;
+                    "Stealth (SYN)") nmap_args+=(-sS) ;;
+                    "Connect")       nmap_args+=(-sT) ;;
+                    "ACK")           nmap_args+=(-sA) ;;
+                    "Window")        nmap_args+=(-sW) ;;
                 esac
 
-                [[ "$udp_scan" == "ON" ]]         && nmap_cmd+=" -sU"
-                [[ "$service_detection" == "ON" ]] && nmap_cmd+=" -sV"
-                [[ "$os_detection" == "ON" ]]      && nmap_cmd+=" -O"
-                [[ -n "$custom_ports" ]]           && nmap_cmd+=" -p \"$custom_ports\""
+                [[ "$udp_scan" == "ON" ]]          && nmap_args+=(-sU)
+                [[ "$service_detection" == "ON" ]] && nmap_args+=(-sV)
+                [[ "$os_detection" == "ON" ]]      && nmap_args+=(-O)
+                [[ -n "$custom_ports" ]]           && nmap_args+=(-p "$custom_ports")
 
                 case "$scan_aggressiveness" in
-                    "Ghost")      nmap_cmd+=" -T1" ;;
-                    "Sneaky")     nmap_cmd+=" -T2" ;;
-                    "Polite")     nmap_cmd+=" -T2" ;;
-                    "Normal")     nmap_cmd+=" -T3" ;;
-                    "Aggressive") nmap_cmd+=" -T4" ;;
-                    "Insane")     nmap_cmd+=" -T5" ;;
+                    "Ghost")      nmap_args+=(-T1) ;;
+                    "Sneaky")     nmap_args+=(-T2) ;;
+                    "Polite")     nmap_args+=(-T2) ;;
+                    "Normal")     nmap_args+=(-T3) ;;
+                    "Aggressive") nmap_args+=(-T4) ;;
+                    "Insane")     nmap_args+=(-T5) ;;
                 esac
-
 
                 if [[ "$mode" == "full" && ${#selected_scripts[@]} -gt 0 ]]; then
                     echo -e "${neon_yellow}[*] Attaching ${#selected_scripts[@]} selected NSE scripts to the scan...${nc}"
-                 
-                 script_list=$(IFS=,; echo "${selected_scripts[*]}")
-                 nmap_cmd+=" --script=\"${script_list}\""
+                    script_list=$(IFS=,; echo "${selected_scripts[*]}")
+                    nmap_args+=("--script=${script_list}")
                 fi
 
-                 nmap_cmd+=" \"${ip}/${cidr}\""
+                nmap_args+=("${ip}/${cidr}")
 
                 clear
                 ascii_art
@@ -1565,7 +1563,7 @@ function scan_core() {
                 echo
                 echo -e "${neon_yellow} [*] To cancel the scan, press Ctrl+C at any time.${nc}"
 
-                eval "$nmap_cmd" 2>&1 | while IFS= read -r line; do
+                nmap "${nmap_args[@]}" 2>&1 | while IFS= read -r line; do
                     cols=$(tput cols)
                     padded_line=$(printf "%-${cols}s" "$line")
                     echo -ne "\r${neon_cyan}${padded_line}${nc}"
@@ -1630,9 +1628,9 @@ function scan_core() {
                 done < "${output_base}/vuln_mapping/services.versions.log"
                   echo -e "${neon_cyan}»» ${neon_pink}Results saved in: ${neon_green}${output_base}/vuln_mapping/Vulnerabilities.log${nc}"
 
-                  if grep -q "Exploit Title" "${output_base}/vuln_mapping/Vulnerabilities.log" 2>/dev/null; then
+                  if grep -q "exploits/" "${output_base}/vuln_mapping/Vulnerabilities.log" 2>/dev/null; then
                   echo -e "${neon_yellow}[i] Possible vulnerabilities found:${nc}"
-                  echo -e "${neon_green}$(grep -i "Exploit Title" "${output_base}/vuln_mapping/Vulnerabilities.log" | wc -l)${nc}"
+                  echo -e "${neon_green}$(grep -c "exploits/" "${output_base}/vuln_mapping/Vulnerabilities.log")${nc}"
                   else
                     echo -e "${neon_yellow}[!] No vulnerabilities found for the scanned services.${nc}"
                  fi
@@ -1650,24 +1648,22 @@ function scan_core() {
                 # BRute force section
                 if [[ "$brute_force" == "ON" ]]; then
 
-                 # Store services to check for brute force
+                 # Store unique (IP, service) targets so SMB 139+445 does not run twice
                  services=$(awk '
                  /^Nmap scan report for/ { ip=$NF; gsub(/[()]/, "", ip) }
                  /^[0-9]+\/(tcp|udp)/ && $2 == "open" && $3 ~ /^(ssh|ftp|smb|microsoft-ds|netbios-ssn|telnet|smtp)$/ {
                  svc=$3; if (svc == "microsoft-ds" || svc == "netbios-ssn") svc="smb";
-                 print ip, $1, svc
+                 key=ip SUBSEP svc;
+                 if (!seen[key]++) print ip, $1, svc
                  }
                  ' "$normal_output")
 
-                 # Only run "no services" if there were no matching services at all
+                 # Only show "no services" notice without breaking out before ZIP creation
                  if [[ -z "$services" ]]; then
                  echo
                  echo -e "${neon_yellow}[!] No brute-forceable services found in scan results${nc}"
                  echo -e "${neon_cyan}Results saved in: ${neon_pink}${output_base}${nc}"
                  echo
-                 echo -ne "${neon_blue}❯❯ Press enter to return to menu...${nc}"
-                 read
-                 break
                
                     else
                     echo
@@ -2079,8 +2075,8 @@ function scan_core() {
                          '
                         ) > "$glaz_users"
 
-                        # Delete spaces so the hydra can read the file
-                        sed 's/ //g' < "$glaz_users" > "${glaz_users}.tmp"
+                        # Strip spaces and blank lines so Hydra never tests an empty username
+                        sed 's/ //g' < "$glaz_users" | grep -v '^$' > "${glaz_users}.tmp"
                         rm -f  "$glaz_users" # Remove original files to avoid confusion
                         
                         # Update variables to point to the new files
