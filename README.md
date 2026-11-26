@@ -4,7 +4,7 @@
 
 <br/>
 
-[![Language](https://img.shields.io/badge/GNU_Bash-2%2C278_LOC-d4a359?style=for-the-badge&logo=gnubash&logoColor=white&labelColor=06090e)](Glaz.sh)
+[![Language](https://img.shields.io/badge/GNU_Bash-2%2C274_LOC-d4a359?style=for-the-badge&logo=gnubash&logoColor=white&labelColor=06090e)](Glaz.sh)
 [![Vulnerability Engine](https://img.shields.io/badge/Nmap_NSE-Searchsploit_CVE-4d88c4?style=for-the-badge&logo=linux&logoColor=white&labelColor=06090e)](Glaz.sh)
 [![Credential Auditor](https://img.shields.io/badge/THC_Hydra-5_Service_Audit-c9654b?style=for-the-badge&logo=kalilinux&logoColor=white&labelColor=06090e)](Glaz.sh)
 [![Pentest Dossier](https://img.shields.io/badge/Pentest_Dossier-PDF_(12_Pages)-56d364?style=for-the-badge&logo=readthedocs&logoColor=white&labelColor=06090e)](docs/Glaz_Portfolio.pdf)

@@ -63,7 +63,7 @@
       <rect width="202" height="54" rx="7" fill="url(#card)" stroke="#242e3f" stroke-width="1"/>
       <line x1="0" y1="12" x2="0" y2="42" stroke="#d4a359" stroke-width="3"/>
       <text x="14" y="21" class="lbl">CORE ARCHITECTURE</text>
-      <text x="14" y="41" class="val">GNU Bash · 2,278 LOC</text>
+      <text x="14" y="41" class="val">GNU Bash · 2,274 LOC</text>
     </g>
 
     <g transform="translate(214, 102)">
